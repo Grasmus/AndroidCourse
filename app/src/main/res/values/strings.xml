@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Day2HelloKitty</string>
+    <string name="button_kitty_content_description">press the button to reveal cat`s name</string>
+    <string name="kitty_name">Hello Kitty</string>
+    <string name="edit_text_hint">Enter the cat`s name</string>
+    <string name="text_view_greetings">Hello, </string>
 </resources>
