@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Day4TrafficLights</string>
+    <string name="button_red_text">Red</string>
+    <string name="button_yellow_text">Yellow</string>
+    <string name="button_green_text">Green</string>
 </resources>
