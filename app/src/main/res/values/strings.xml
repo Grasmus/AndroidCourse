@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Day5ComponentsPositioning</string>
+    <string name="textView_first_replica">Наташ, ти спиш?</string>
+    <string name="textView_second_replica">Уже 6-а ранку. Наташ</string>
+    <string name="textView_third_replica">Вставай, ми там\nусе впустили</string>
+    <string name="textView_fourth_replica">Ми все впустили взагалі\nвсе, Наташ, чесно</string>
 </resources>
