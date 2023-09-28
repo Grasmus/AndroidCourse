@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChooseThiefActivity">
+
+    <TextView
+        android:id="@+id/textView_choose_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_choose_answer_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radio_crow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/radio_crow_text" />
+
+        <RadioButton
+            android:id="@+id/radio_dog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_dog_text" />
+
+        <RadioButton
+            android:id="@+id/radio_cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_cat_text" />
+
+    </RadioGroup>
+
+</LinearLayout>
