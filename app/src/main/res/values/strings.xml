@@ -1,3 +1,43 @@
 <resources>
     <string name="app_name">Day6SwitchingBetweenScreens</string>
+    <string name="about_text">
+        Знаєш, а ти мені снишся\n
+        В ті рідкісні випадки,\n
+        Коли виходить нормально поспати\n
+        Я радий, що з тобою в голові я\n
+        Не скурився, не спився\n
+        Адже на ранок так і хочеться\n
+        Все це послати!\n
+        \n
+        Сни ця, як правило, ароматні й теплі\n
+        З присмаком молока, температурою - квітень\n
+        Зануруюсь в них, не збиваючи темпу\n
+        Не зриваючи сіні міни й мітки\n
+        \n
+        Сни ці напівлегальні, мені так здається\n
+        Сни ці напівпристойні - це ясно\n
+        Торкаюсь твого неспокійного серця -\n
+        І замикається дихання, мов під\n
+        Душем контрастним\n
+        \n
+        Рятуй мене далі, моя ти кохана примаро,\n
+        Від днів, якими я сильно обпечений\n
+        Так я живу цим примарним самообманом\n
+        \n
+        Тебе так мало\n
+        Ти - мій вечір\n
+        Моя втеча
+    </string>
+    <string name="about_title">About</string>
+    <string name="button_about_text">About us</string>
+    <string name="button_second_activity_text">Send</string>
+    <string name="textview_recipient_label_text">Recipient</string>
+    <string name="textview_message_label_text">Message</string>
+    <string name="textview_second_activity_message_template">
+        %1$s, you have received a message:\n%2$s\nFrom: %3$s
+    </string>
+    <string name="textview_second_activity_message_error">
+        Error occurred while receiving a message!
+    </string>
+    <string name="textview_sender_label_text">Sender</string>
 </resources>
