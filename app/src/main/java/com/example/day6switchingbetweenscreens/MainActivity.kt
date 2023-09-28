@@ -6,12 +6,11 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 
+const val RECIPIENT = "com.example.day6switchingbetweenscreens.RECIPIENT"
+const val MESSAGE = "com.example.day6switchingbetweenscreens.MESSAGE"
+const val SENDER = "com.example.day6switchingbetweenscreens.SENDER"
+
 class MainActivity : AppCompatActivity() {
-    companion object {
-        const val RECIPIENT = "com.example.day6switchingbetweenscreens.RECIPIENT"
-        const val MESSAGE = "com.example.day6switchingbetweenscreens.MESSAGE"
-        const val SENDER = "com.example.day6switchingbetweenscreens.SENDER"
-    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

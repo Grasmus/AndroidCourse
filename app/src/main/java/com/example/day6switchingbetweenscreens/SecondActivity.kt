@@ -3,9 +3,6 @@ package com.example.day6switchingbetweenscreens
 import android.app.Activity
 import android.os.Bundle
 import android.widget.TextView
-import com.example.day6switchingbetweenscreens.MainActivity.Companion.MESSAGE
-import com.example.day6switchingbetweenscreens.MainActivity.Companion.RECIPIENT
-import com.example.day6switchingbetweenscreens.MainActivity.Companion.SENDER
 
 class SecondActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
