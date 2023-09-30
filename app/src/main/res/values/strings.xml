@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Day9Toast</string>
+    <string name="toast_text">Time to feed a cat!</string>
+    <string name="button_toast_text">Make a toast</string>
+    <string name="cat_food">Cat food</string>
+    <string name="button_toast2_text">Make a second toast</string>
 </resources>
