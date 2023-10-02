@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Day11Menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_cat_male">Male cat</string>
+    <string name="action_cat_female">Female cat</string>
+    <string name="action_kitten">Kitten</string>
+</resources>
