@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Day6Sherlock</string>
+    <string name="who">Who stole two slices of sausage?</string>
+    <string name="button_choose_text">Choose one</string>
+    <string name="textview_choose_answer_text">Choose a correct answer</string>
+    <string name="radio_crow_text">Crow</string>
+    <string name="radio_dog_text">Dog</string>
+    <string name="radio_cat_text">Cat</string>
+    <string name="imageview_sherlock_content_description">Sherlock is meditating</string>
+</resources>
