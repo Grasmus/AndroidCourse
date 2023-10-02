@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Day3CrowsCounter</string>
+    <string name="button_say_hello_text">Say hello</string>
+    <string name="say_hello_message">Hello, Stfalcon</string>
+    <string name="counter_message">I`ve counted %1$d crows!</string>
+    <string name="button_crows_counter_text">Let`s count crows</string>
+</resources>
