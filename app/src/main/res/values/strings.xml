@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Day15Converter</string>
+    <string name="radiobutton_meters">In meters</string>
+    <string name="radiobutton_parrots">In parrots</string>
+    <string name="button_convert_text">Convert</string>
+    <string name="text_label_text">Enter the value to convert</string>
+    <string name="activity_color">#3399cc</string>
+</resources>
