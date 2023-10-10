@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Локалізований застосунок</string>
+    <string name="hello_world">Привіт, світ!</string>
+</resources>
