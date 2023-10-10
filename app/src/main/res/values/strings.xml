@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Day20Keyboard</string>
+    <string name="text_view_label_text">Enter the text</string>
+    <string name="button_show_dialog_text">Show dialog</string>
+</resources>
