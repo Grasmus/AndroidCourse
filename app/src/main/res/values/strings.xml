@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Day23CatsHandbook</string>
+    <string name="element_text">Some text</string>
 </resources>
