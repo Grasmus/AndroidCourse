@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Day24Camera</string>
+    <string name="button_open_camera_text">Open the camera</string>
+    <string name="image_view_photo_desc">Taken photo</string>
 </resources>
