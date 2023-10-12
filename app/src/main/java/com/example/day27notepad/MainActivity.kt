@@ -1,8 +1,12 @@
 package com.example.day27notepad
 
 import android.content.Context
+import android.content.Intent
+import android.graphics.Color
+import android.graphics.Typeface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.preference.PreferenceManager
 import android.view.Menu
 import android.view.MenuItem
 import by.kirich1409.viewbindingdelegate.viewBinding
@@ -35,7 +39,46 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
                 saveFile(FILENAME)
                 true
             }
+            R.id.action_settings -> {
+                Intent(this, SettingsActivity::class.java).also {
+                    startActivity(it)
+                }
+                true
+            }
             else -> true
+        }
+    }
+
+    override fun onResume() {
+        super.onResume()
+
+        val prefs = PreferenceManager
+            .getDefaultSharedPreferences(this)
+
+        if (prefs.getBoolean(getString(R.string.pref_openmode), false)) {
+            openFile(FILENAME)
+        }
+
+        val regular = prefs.getString(getString(R.string.pref_style), "")
+        var typeface = Typeface.NORMAL
+        val color = prefs.getString(getString(R.string.pref_color), "")
+
+        if (regular!!.contains("Bold")) typeface += Typeface.BOLD
+        if (regular.contains("Italic")) typeface += Typeface.ITALIC
+
+        try {
+            val fontSize = prefs.getString(getString(R.string.pref_size), "20")!!.toFloat()
+
+            binding.editText.textSize = fontSize
+            binding.editText.setTypeface(null, typeface)
+
+            if (color !== "") {
+                binding.editText.setTextColor(Color.parseColor(color))
+            } else {
+                binding.editText.setTextColor(getColor(R.color.black))
+            }
+        } catch (exception: Exception) {
+            exception.printStackTrace()
         }
     }
 
