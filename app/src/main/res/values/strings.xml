@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Day27Notepad</string>
+    <string name="action_open">Open</string>
+    <string name="action_save">Save</string>
 </resources>
