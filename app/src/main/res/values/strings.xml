@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Day28Broadcast</string>
+    <string name="button_send_message_text">Send message</string>
+    <string name="boot_action">android.intent.action.BOOT_COMPLETED</string>
+    <string name="where_my_cat_action">com.example.day28broadcast.action.CAT</string>
+    <string name="what_time_action">android.intent.action.TIME_TICK</string>
+    <string name="alarm_message">Send us cat ASAP!</string>
+</resources>
