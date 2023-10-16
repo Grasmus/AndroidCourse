@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="text_style">
+        <item>Regular</item>
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Bold+Italic</item>
+    </string-array>
+
+    <string-array name="text_color">
+        <item>Black</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+
+</resources>
