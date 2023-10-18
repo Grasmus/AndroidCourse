@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Day33RecyclerView</string>
+    <string name="list_small_text">Cat</string>
+</resources>
