@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Day30Fragments</string>
+    <string name="text_view_text">Translate to neco language</string>
+    <string name="button_text">Begin</string>
+    <string name="edit_text_message_hint">Enter a text to translate to neco language</string>
+    <string name="messagefragment_translate_button_text">Translate</string>
+</resources>
